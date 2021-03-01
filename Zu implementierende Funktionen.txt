@@ -18,6 +18,11 @@ Zu implementierende Funktionen:
 	- Anmeldestart und Anmeldeschluss (für Gruppen)
 	- Setup (einer Gruppe): Name, Modus (gruppe/individual), (mögliches Datum und Uhrzeit), 
                   Mindestgröße,  Maximalgröße, Anmeldestart und Schluss
+	- Anwendung erzeugt innerhalb GitHub Organisation für jede gruppe frisches Repository 
+	    (Name = Gruppennamen + Name der praktischen Übung)
+	- Gruppenmitglieder werden Repository hinzugefügt
+	- Einzelne Nutzer können verschoben werden, und neue Repos nachträglich angelegt werden
+	    -> Nachträgliche Änderungen möglich
 - Individualanmeldung:
 	- Zuordnung Nutzer zu Gruppen (automatische Logik)
 	- Zuordnung Korrektoren zu Gruppen
