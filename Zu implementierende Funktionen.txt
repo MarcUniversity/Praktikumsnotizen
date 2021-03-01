@@ -1,0 +1,34 @@
+Zu implementierende Funktionen:
+- Anmeldung zur „Website“
+	- Security: Über OAuth2 und spring security
+	- Authentifizierung zu 3 Nutzergruppen
+- Nutzeransicht:
+	- Student oder Orga (oder Tutor)
+
+- Gruppenanmeldungen:
+	- Gruppenerstellung
+		- Hinzufügen von vorher abgesprochenen weiteren Nutzern
+		- Maximalgröße 5 (fest?)
+	- Anzeigen der verfügbaren Zeitslots für nächste Woche mit Maximalgröße und Useranzahl in 
+                   „wochenplan“  (Übersicht)
+	- Wochenplan übernommen von vorherigen Woche (automatisch)
+	- Zuteilung Tutoren zu Zeitslot (zufällig)
+	- Seite mit offenen Plätzen in gruppen
+	- Hinzufügen einer Einzelperson (eigenständig) zu gruppe, gruppe wird angepasst 
+	- Anmeldestart und Anmeldeschluss (für Gruppen)
+	- Setup (einer Gruppe): Name, Modus (gruppe/individual), (mögliches Datum und Uhrzeit), 
+                  Mindestgröße,  Maximalgröße, Anmeldestart und Schluss
+- Individualanmeldung:
+	- Zuordnung Nutzer zu Gruppen (automatische Logik)
+      - Zuordnung Korrektoren zu Gruppen
+	- Kapazität von einem Zeitslot (Kapazität aller Übungsgruppen zu dem Zeitpunkt addiert)
+	- Blocken eines vollen Zeitslots
+- Datenbanken
+	- Arten von Nutzern (Studenten und Orgas)
+
+
+- Kommunikation 
+	- Orga zu Student: Welche Gruppe hast du etc.
+	- Orga zu Tutor: Welche Gruppe ist dir zugeteilt
+- GitHub
+	- Weiterleitung an Github, erstellen Repositorys (Basisrepositorys?)
