@@ -1,0 +1,6 @@
+- Vorgefertigte Gruppen für Studenten
+- Läuft das System unter anderen Betriebssystemen
+- Ästhetik
+- Text-to-Speech
+- Bestehende Organisationen verwenden
+- User mit Admin-Rechten prüfen und Fehlermeldung ausgeben
