@@ -20,15 +20,18 @@ Zu implementierende Funktionen:
                   Mindestgröße,  Maximalgröße, Anmeldestart und Schluss
 - Individualanmeldung:
 	- Zuordnung Nutzer zu Gruppen (automatische Logik)
-      - Zuordnung Korrektoren zu Gruppen
+	- Zuordnung Korrektoren zu Gruppen
 	- Kapazität von einem Zeitslot (Kapazität aller Übungsgruppen zu dem Zeitpunkt addiert)
 	- Blocken eines vollen Zeitslots
 - Datenbanken
-	- Arten von Nutzern (Studenten und Orgas)
+	- Nutzer (mit Art wie Student und Organisator, Gruppe u.ä.)
+	- Letztwöchiger Wochenplan (in Datenbank?)
 
 
 - Kommunikation 
 	- Orga zu Student: Welche Gruppe hast du etc.
 	- Orga zu Tutor: Welche Gruppe ist dir zugeteilt
+	- Student zu Orga: Probleme bei Zuteilung
+	- Und generell alle untereinander
 - GitHub
 	- Weiterleitung an Github, erstellen Repositorys (Basisrepositorys?)
