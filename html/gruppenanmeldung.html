@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Terminplaner: Anmeldung</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Terminplaner</a>
+        </div>
+        <div class="navbar-text">
+            <a href="mailto:orgamail@exmaple.com" style="text-decoration:none;">Mail an die Organisatoren </a>
+        </div>
+    </div>
+</nav>
+<div style="height:30px;"></div>
+<div class="container text-center">
+    <h2>Gruppenanmeldung: <span>Montag</span> <span>01.03.2021</span>, <span>10:30</span></h2>
+    <hr>
+    <div class="alert alert-danger">
+        Für diesen Termin sind keine Plätze mehr verfügbar.<br><br>
+        <button class="btn btn-danger">Zur Anmeldung</button>
+        <button class="btn btn-light">Zur Startseite</button>
+    </div>
+    <!-- Neue Gruppe -->
+    <form class="alert alert-secondary form">
+        <label>Gruppenname</label>
+        <div style="height:10px;"></div>
+        <input type="text" class="form-control"><br>
+        <label class="form-group">
+            Es sind <b><span>4</span></b> Plätze verfügbar.<br>
+            Tragen die in die Felder die GitHub Handles der Studierenden ein, die sie für diesen Termin anmelden wollen.
+        </label>
+        <div style="height:30px;"></div>
+        <!-- Der Student, der die Gruppe erstellt -->
+        <input type="text" class="form-control" placeholder="GitHubName" readonly><br>
+        <span>
+			<input type="text" class="form-control"><br>
+			<input type="text" class="form-control"><br>
+			<input type="text" class="form-control"><br>
+        </span>
+        <button type="submit" class="btn btn-primary">Anmelden</button>
+    </form>
+    <!-- Bestehende Gruppe -->
+    <form class="alert alert-secondary form">
+        <label>Gruppenname</label>
+        <div style="height:10px;"></div>
+        <input type="text" class="form-control" readonly placeholder="Name der Gruppe"><br>
+        <div class="alert alert-danger">
+            Die erforderlich Mindestgröße von <span>3</span> Personen ist nicht erreicht.
+        </div>
+        <label>
+            Es sind noch <b><span>2</span></b> Plätze verfügbar.<br>
+            Tragen sie die GitHub-Handles der Studenten, die sie anmelden wollen in die freien Felder ein.
+        </label>
+        <div style="height:30px;"></div>
+        <span>
+            <input type="text" class="form-control" readonly placeholder="Gruppenmitglied 1"><br>
+            <input type="text" class="form-control" readonly placeholder="Gruppenmitglied 2"><br>
+        </span>
+        <span>
+            <input type="text" class="form-control"><br>
+            <input type="text" class="form-control"><br>
+        </span>
+        <button type="submit" class="btn btn-primary">Anmelden</button>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+</html>
