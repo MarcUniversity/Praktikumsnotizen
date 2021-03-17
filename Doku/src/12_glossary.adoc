@@ -1,0 +1,40 @@
+[[section-glossary]]
+== Glossar
+
+[role="arc42help"]
+****
+.Inhalt
+Die wesentlichen fachlichen und technischen Begriffe, die Stakeholder im Zusammenhang mit dem System verwenden.
+
+Nutzen Sie das Glossar ebenfalls als Übersetzungsreferenz, falls Sie in mehrsprachigen Teams arbeiten.
+
+.Fachtermina
+
+1. Anmeldung
+2. Termin
+3. User
+4. Zeitslot
+
+
+.Form
+* Zweispaltige Tabelle mit <Begriff> und <Definition>
+* Eventuell weitere Spalten mit Übersetzungen, falls notwendig.
+****
+
+[cols="1,2" options="header"]
+|===
+|Begriff
+|Definition
+
+|_Anmeldung_
+|_<Eine Zeitraum, indem mehrere Termine erstellt werden können. Im Kontext von Propra 2 idR eine praktische Übung>_
+
+|_Termin_
+|_Die Zusammenführung einer Gruppe von Studenten zu einem Tutor an einem spezifischen Tag zu einer Uhrzeit_
+
+
+|_Zeitslot_
+|_Eine spezifische Uhrzeit an einem Tag, an der ein oder mehrere Termine stattfinden_
+
+
+|===
